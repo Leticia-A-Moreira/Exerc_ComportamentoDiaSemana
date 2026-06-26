@@ -1,4 +1,4 @@
-Utilizei IA para auxiliar na construção do README
+Utilizei IA para auxiliar na construção do README.
 # Comportamento por Dia da Semana
 
 Programa orientado a objetos em C# que identifica o dia atual da semana e delega a execução de uma ação para uma estratégia específica.

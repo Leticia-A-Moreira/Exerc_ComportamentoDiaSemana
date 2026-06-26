@@ -21,7 +21,7 @@ namespace ComportamentoDiaSemana
     public class EstrategiaQuarta : IEstrategiaDia
     {
         public string NomeDia => "quarta-feira";
-        public string Prioridade => "MEDIA";
+        public string Prioridade => "BAIXA";
         public string Executar(string informacaoUsuario)
         {
             return $"Dia de revisão: verifique o andamento da atividade \"{informacaoUsuario}\".";
@@ -38,7 +38,7 @@ namespace ComportamentoDiaSemana
     }
     public class EstrategiaSexta : IEstrategiaDia
     {
-        public string NomeDia => "sexta-feira";
+        public string NomeDia => " sexta-feira";
         public string Prioridade => "ALTA";
         public string Executar(string informacaoUsuario)
         {

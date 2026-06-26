@@ -38,7 +38,7 @@ namespace ComportamentoDiaSemana
     }
     public class EstrategiaSexta : IEstrategiaDia
     {
-        public string NomeDia => " sexta-feira";
+        public string NomeDia => "sexta-feira";
         public string Prioridade => "ALTA";
         public string Executar(string informacaoUsuario)
         {
